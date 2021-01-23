@@ -16,13 +16,13 @@
     },
     "preloadScripts": [
       {
-        "url": "https://bsdo3.csb.app/preload/salesforce-openfin-window.js"
+        "url": "https://brmtx.csb.app/preload/salesforce-openfin-window.js"
       },
       {
-        "url": "https://bsdo3.csb.app/preload/salesforce-openfin-api.js"
+        "url": "https://brmtx.csb.app/preload/salesforce-openfin-api.js"
       },
       {
-        "url": "https://bsdo3.csb.app/preload/salesforce-openfin-iab.js"
+        "url": "https://brmtx.csb.app/preload/salesforce-openfin-iab.js"
       }
     ]
   },
@@ -33,7 +33,7 @@
   "shortcut": {
     "company": "OpenFin",
     "description": "SalesForce Container",
-    "icon": "https://openfin.github.io/golden-prototype/favicon.ico",
+    "icon": "https://brmtx.csb.app/favicon.ico",
     "name": "OpenFin SalesForce Example"
   }
 }
