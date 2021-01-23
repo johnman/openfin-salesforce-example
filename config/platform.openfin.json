@@ -7,7 +7,7 @@
   },
   "platform": {
     "uuid": "platform-salesforce-app",
-    "applicationIcon": "https://bsdo3.csb.app/favicon.ico",
+    "applicationIcon": "https://brmtx.csb.app/favicon.ico",
     "autoShow": false
   },
   "snapshot": {
@@ -33,7 +33,7 @@
                   "type": "component",
                   "componentName": "view",
                   "componentState": {
-                    "url": "https://bsdo3.csb.app/app.html",
+                    "url": "https://brmtx.csb.app/app.html",
                     "name": "component_1584387105285"
                   },
                   "isClosable": false,

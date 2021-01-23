@@ -4,7 +4,7 @@
   "startup_app": {
     "name": "AltSalesForceApp",
     "description": "A Salesforce Supporting Sample App to Listen To and Publish Messages",
-    "url": "https://bsdo3.csb.app/app.html",
+    "url": "https://brmtx.csb.app/app.html",
     "uuid": "AltAppSalesForce",
     "autoShow": true,
     "defaultHeight": 950,
@@ -23,7 +23,7 @@
   "shortcut": {
     "company": "OpenFin",
     "description": "SalesForce Container",
-    "icon": "https://bsdo3.csb.app/favicon.ico",
+    "icon": "https://brmtx.csb.app/favicon.ico",
     "name": "OpenFin SalesForce Support App"
   }
 }
