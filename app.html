@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>OpenFin SalesForce Sample - Other App</title>
+    <style>
+      body {
+        font-size: 14px;
+        font-family: "Lucida Console", Monaco, monospace;
+        background-color: white;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 15rem;
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 0.8rem;
+        line-height: 1.2;
+      }
+    </style>
+    <script type="module" src="js/app.js"></script>
+  </head>
+  <body>
+    <div>
+      <p>
+        <button id="listenToMessages">
+          Start Listening To Messages
+        </button>
+        <button id="clearMessages">
+          Clear Received Messages
+        </button>
+        <button id="sendMessage">Send Message</button>
+      </p>
+      <p>
+        <button id="openSalesForceApp">Open SalesForce App</button>
+        <button id="openSalesForceWindow">Open SalesForce Window</button>
+        <button id="openSalesForceView" style="display: none;">
+          Open SalesForce View
+        </button>
+      </p>
+    </div>
+    <div id="sendMessageDisplay">
+      <h2>Message To Send:</h2>
+      <textarea name="" id="messageToSend" cols="30" rows="5"></textarea>
+    </div>
+    <div id="receivedMessageDisplay" style="display: none;">
+      <h2>Received Message:</h2>
+      <textarea name="" id="receivedMessage" cols="30" rows="5"></textarea>
+    </div>
+  </body>
+</html>

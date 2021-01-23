@@ -1,0 +1,29 @@
+{
+  "$schema": "./openfin.json",
+  "devtools_port": 9091,
+  "startup_app": {
+    "name": "AltSalesForceApp",
+    "description": "A Salesforce Supporting Sample App to Listen To and Publish Messages",
+    "url": "https://bsdo3.csb.app/app.html",
+    "uuid": "AltAppSalesForce",
+    "autoShow": true,
+    "defaultHeight": 950,
+    "defaultWidth": 800,
+    "api": {
+      "iframe": {
+        "crossOriginInjection": true,
+        "sameOriginInjection": true
+      }
+    }
+  },
+  "runtime": {
+    "arguments": "--v=1 --inspect",
+    "version": "stable"
+  },
+  "shortcut": {
+    "company": "OpenFin",
+    "description": "SalesForce Container",
+    "icon": "https://bsdo3.csb.app/favicon.ico",
+    "name": "OpenFin SalesForce Support App"
+  }
+}
