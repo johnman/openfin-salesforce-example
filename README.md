@@ -206,11 +206,13 @@ platform
 
 <a href="https://codesandbox.io/s/openfin-salesforce-example-brmtx?file=/README.md" target="_blank">Open Codesandbox</a>
 
+<a href="https://brmtx.csb.app/" target="_blank">Open Codesandbox Preview (No code just the rendered page)</a>
+
 CodeSandbox will show the a preview of the main page and allow you to navigate the code (like you can in github).
 
 You can launch the app but you will not be able to log into the Salesforce site so an example is shown here:
 
-![](https://johnman.github.io/openfin-salesforce-example/SalesForce-OpenFin-Demo.gif)
+![](salesforce-openfin-preview.png)
 
 <a href="https://johnman.github.io/openfin-salesforce-example/SalesForce-OpenFin-Demo.gif" target="_blank">Open animated gif in a new window</a>
 
