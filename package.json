@@ -1,7 +1,7 @@
 {
-  "name": "openfin-salesforce",
+  "name": "openfin-salesforce-example",
   "version": "1.0.0",
-  "description": "Sample trying to use salesforce in an openfin container",
+  "description": "An example of SalesForce and OpenFin integration",
   "main": "index.html",
   "scripts": {
     "start": "serve"
@@ -10,7 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/codesandbox-app/static-template.git"
   },
-  "keywords": [],
+  "keywords": [
+    "openfin",
+    "salesforce"
+  ],
   "author": "Ives van Hoorne",
   "license": "MIT",
   "bugs": {
