@@ -34,6 +34,20 @@ The OpenFin can also receive messages from the SalesForce app or SalesForce wind
 
 ### Enabling OpenFin Support For SalesForce
 
+Why do we need to enable OpenFin support via preload scripts in this experiment? This repo shows you how to quickly test salesforce and openfin integration. If you are using lightning components then the component gets locked down so that it cannot access certain things on the window (a component is given a secured window which controls what is exposed). https://developer.salesforce.com/docs/atlas.en-us.lightning.meta/lightning/security_code.htm
+This was added since version 40 of the salesforce api (defined in your lightning component's meta.xml file). This can also apply to some thirdparty libraries as well.
+Ways around this limitation (the SalesForce documentation is the best place to cover this and this is just an example):
+
+- If you are using an api version below 40 (where the changes were introduced)
+- You are using a library that is already approved by SalesForce (e.g. I believe React is)
+- You use a lightning component container (https://developer.salesforce.com/blogs/2018/04/lightning-container-component-building-components-with-react-angular-and-other-libraries.html)
+
+To see an example of what is restricted you can visit:
+
+https://developer.salesforce.com/docs/component-library/tools/locker-service-viewer
+
+The preload script approach below is a way of trying the OpenFin apis with minimal work.
+
 #### The preload scripts
 
 This is just an example. The preload directory contains three scripts that can be preloaded into a window/application that is hosting SalesForce (you can pick one or all three):
